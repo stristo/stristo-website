@@ -6,8 +6,44 @@ body {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+}
+
+.logo-wrapper {
+    margin-bottom: 100px;
+}
+
+.input-group-transparent {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 800px;
+}
+
+.input-group-transparent > span {
+    background-color: #222;
+    width: 30%;
+    color: #FFF;
+}
+
+.input-group-transparent > input {
+    background-color: inherit;
+    color: #DDD;
+    width: 500px;
+}
+
+.btn-stristo, .btn-stristo:visited {
+    color: #DDDDDD;
+    background-color: #BB2222;
+}
+
+.btn-stristo:hover, .btn-stristo:active {
+    color: #FFFFFF;
+    background-color: #AA2222;
 }
 
 footer {
     color: #999;
+    position: absolute;
+    bottom: 30px;
+    width: inherit;
 }
